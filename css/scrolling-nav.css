@@ -7,6 +7,8 @@
 body {
     width: 100%;
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 html {
@@ -27,6 +29,11 @@ html {
     }
 }
 
+.brand-custom {
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 0.02em;
+}
+
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
@@ -35,7 +42,10 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #eee;
+}
+
+.intro-section h1 {
 }
 
 .about-section {
@@ -49,7 +59,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #232323;
 }
 
 .contact-section {
