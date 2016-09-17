@@ -32,6 +32,11 @@ html {
 .brand-custom {
     font-family: 'Alfa Slab One', cursive;
     letter-spacing: 0.02em;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.nav-custom li, .nav-custom a, .nav-custom {
+    
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
@@ -46,25 +51,26 @@ of those sections to manage the look and feel of the site. */
 }
 
 .intro-section h1 {
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4), 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
 .about-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background: #232323;
 }
 
 .services-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #232323;
+    background: #eee;
 }
 
 .contact-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background: #232323;
 }
