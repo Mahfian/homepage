@@ -16,6 +16,11 @@ html {
     height: 100%;
 }
 
+poop {
+    font-size: 30px;
+    transition: all .3s ease-in-out;
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -26,6 +31,11 @@ html {
 
     .top-nav-collapse {
         padding: 0;
+    }
+    
+    .top-nav-collapse poop {
+        font-size: 18px;
+        transition: all .5s ease-in-out;
     }
 }
 
@@ -50,7 +60,12 @@ a:hover {
     transform: scale(0.9);
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus{
+    background-color:transparent;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #469af8;
     background-color:transparent;
 }
 
@@ -76,7 +91,7 @@ of those sections to manage the look and feel of the site. */
 }
 .block-title {
     border-top: 1px solid #4e4e4e;
-        text-align: center;
+    text-align: center;
 }
 
 .block-title h1 {
@@ -97,6 +112,7 @@ of those sections to manage the look and feel of the site. */
 
 .section-one h1 {
     color: #eee;
+    text-align: center;
 }
 
 .section-one h3 {
