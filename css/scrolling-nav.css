@@ -106,7 +106,7 @@ of those sections to manage the look and feel of the site. */
 
 .section-one {
     height: 100%;
-    padding-top: 100px;
+    padding-top: 150px;
     background: #232323;
 }
 
@@ -124,4 +124,8 @@ of those sections to manage the look and feel of the site. */
     padding-top: 100px;
     text-align: center;
     background: #eee;
+}
+
+.section-three {
+    padding-top: 100px;
 }
