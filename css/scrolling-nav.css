@@ -49,8 +49,9 @@ poop {
     color: #469af8;
 }
 
-a {
+a, a:focus {
     transition:all 0.3s ease-in-out;
+    text-decoration: none;
 }
 
 a:hover {
@@ -67,6 +68,26 @@ a:hover {
 .navbar-default .navbar-nav>.active>a:hover {
     color: #469af8;
     background-color:transparent;
+}
+
+.boton1{
+  background: #eee;
+  color:#3472B8;
+  padding: 10px 20px;
+  box-shadow:0px 0px 0 #ddd inset;
+  text-decoration:none;
+}
+
+.boton1:focus{
+    text-decoration: none;
+}
+
+.boton1:hover{ 
+  color:#eee;
+  background:#eee;
+  box-shadow:-280px -90px 0px #3472B8 inset;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+  text-decoration:none;
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
@@ -89,6 +110,7 @@ of those sections to manage the look and feel of the site. */
 .intro-section p {
     color: #fff;
 }
+
 .block-title {
     border-top: 1px solid #4e4e4e;
     text-align: center;
