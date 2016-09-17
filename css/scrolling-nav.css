@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
@@ -35,10 +35,6 @@ html {
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
-.nav-custom li, .nav-custom a, .nav-custom {
-    
-}
-
 .navbar-default .navbar-nav>li>a:hover {
     color: #469af8;
 }
@@ -63,7 +59,7 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
-    height: 90%;
+    height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #469af8;
@@ -71,31 +67,45 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section h1 {
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
-    margin-top: 70px;
-    color: #eee;
+    margin-top: 5%;
+    color: #fff;
 }
 
 .intro-section p {
+    color: #fff;
+}
+.block-title {
+    border-top: 1px solid #4e4e4e;
+        text-align: center;
+}
+
+.block-title h1 {
+    color: #eee;
+    font-size: 36px;
+    padding: 0px 30px;
+    display: inline-block;
+    margin-top: -90px;
+    background: #232323;
+    padding-bottom: 4%;
+}
+
+.section-one {
+    height: 100%;
+    padding-top: 100px;
+    background: #232323;
+}
+
+.section-one h1 {
     color: #eee;
 }
 
-.about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #232323;
+.section-one h3 {
+    color: #eee;
 }
 
-.services-section {
+.section-two {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: center;
     background: #eee;
-}
-
-.contact-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #232323;
 }
