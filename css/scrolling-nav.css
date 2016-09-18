@@ -26,6 +26,14 @@ poop {
     font-size: 30px;
     transition: all .5s ease-in-out;
 }*/
+@media(max-width:767px) {
+    .brand-img {
+        margin-top: -10px;
+        margin-left: 12px;
+        height: 41px;
+        transition: all .5s ease-in-out;
+    }
+}
 
 @media(min-width:767px) {
     .navbar {
