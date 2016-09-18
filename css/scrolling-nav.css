@@ -40,9 +40,7 @@ poop {
 }
 
 .brand-custom {
-    font-family: 'Alfa Slab One', cursive;
-    letter-spacing: 0.02em;
-    /**text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);*/
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -70,15 +68,15 @@ a:hover {
     background-color:transparent;
 }
 .boton1 {
-    background: #eee;
+    background: #fff;
     color:#3472B8;
     padding: 10px 20px;
     box-shadow:0px 0px 0 #ddd inset;
     text-decoration:none;
 }
 .boton1:hover{ 
-    color:#eee;
-    background:#eee;
+    color:#fff;
+    background:#fff;
     box-shadow:-280px -90px 0px #3472B8 inset;
     text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
     text-decoration:none;
@@ -92,7 +90,24 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #469af8;
+    background-image: url("http://i.imgur.com/BOFkS8E.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width:500px) {
+    .intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background-image: url("http://i.imgur.com/BOFkS8E.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
 }
 
 .intro-section h1 {
@@ -111,7 +126,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .block-title h1 {
-    color: #eee;
+    color: #fff;
     font-size: 36px;
     padding: 0px 30px;
     display: inline-block;
@@ -124,18 +139,18 @@ of those sections to manage the look and feel of the site. */
 }
 
 .section-one {
-    padding-top: 110px;
+    padding-top: 90px;
     padding-bottom: 90px;
     background: #232323;
 }
 
 .section-one h1 {
-    color: #eee;
+    color: #fff;
     text-align: center;
 }
 
 .section-one h3 {
-    color: #eee;
+    color: #fff;
     margin-bottom: 18px;
 }
 
@@ -145,14 +160,24 @@ of those sections to manage the look and feel of the site. */
 }
 
 .section-two {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 40px;
     text-align: center;
-    background: #eee;
+    background: #fff;
 }
 
 .section-two h1 {
-    margin-bottom: 18px;
+    margin-bottom: 32px;
+}
+
+.section-two h3 {
+    margin-bottom: 12px;
+}
+
+.section-two p {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 36px;
 }
 
 .section-three {
@@ -163,7 +188,6 @@ of those sections to manage the look and feel of the site. */
 .skills img {
     height:200px;
     margin: auto;
-    margin-bottom: 30px;
 }
 
 .portfolio-modal .modal-content {
@@ -192,10 +216,6 @@ of those sections to manage the look and feel of the site. */
     height: 300px;
     overflow-y: scroll;
     margin-bottom: 30px;
-}
-
-.modal-doc {
-    overflow: scroll;
 }
 
 .portfolio-modal .close-modal {
