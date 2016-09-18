@@ -118,6 +118,17 @@ of those sections to manage the look and feel of the site. */
     background-size: cover;
 }
 
+
+@media(max-height:470px) {
+    
+.intro-section {
+    padding-top: 10%;
+}
+    
+    
+    
+}
+
 @media(max-width:500px) {
     .intro-section {
     height: 100%;
