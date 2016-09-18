@@ -16,10 +16,16 @@ html {
     height: 100%;
 }
 
+.brand-img {
+    margin-top: -25px;
+    height: 70px;
+    transition: all .5s ease-in-out;
+}
+/*
 poop {
     font-size: 30px;
-    transition: all .3s ease-in-out;
-}
+    transition: all .5s ease-in-out;
+}*/
 
 @media(min-width:767px) {
     .navbar {
@@ -31,12 +37,19 @@ poop {
 
     .top-nav-collapse {
         padding: 0;
-    }
+    }/*
     
     .top-nav-collapse poop {
         font-size: 18px;
         transition: all .5s ease-in-out;
-    }
+    }*/
+}
+
+.top-nav-collapse img {
+    margin-top: -10px;
+    height: 41px;
+    transition: all .5s ease-in-out;
+    
 }
 
 .brand-custom {
