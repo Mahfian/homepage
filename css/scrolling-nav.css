@@ -151,9 +151,19 @@ of those sections to manage the look and feel of the site. */
     background: #eee;
 }
 
+.section-two h1 {
+    margin-bottom: 18px;
+}
+
 .section-three {
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.skills img {
+    height:200px;
+    margin: auto;
+    margin-bottom: 30px;
 }
 
 .portfolio-modal .modal-content {

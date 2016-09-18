@@ -15,7 +15,7 @@
     
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
 
@@ -139,6 +139,22 @@
                     <h1>Skills</h1>
                 </div>
             </div>
+            <div class="row skills">
+                <div class="col-sm-6">
+                        <img data-aos-duration="600" data-aos-delay="100" data-aos="flip-left" src="http://i.imgur.com/5aneeGO.png" class="img-responsive">
+                </div>
+                <div class="col-sm-6">
+                    <img data-aos-duration="600" data-aos-delay="100" data-aos="flip-right" src="http://i.imgur.com/VteKC8f.png" class="img-responsive skill-img">
+                </div>
+            </div>
+            <div class="row skills">
+                <div class="col-sm-6">
+                    <img data-aos-duration="600" data-aos-delay="100" data-aos="flip-left" src="http://i.imgur.com/50jlk1J.png" class="img-responsive skill-img">
+                </div>
+                <div class="col-sm-6">
+                    <img data-aos-duration="600" data-aos-delay="100" data-aos="flip-right" src="http://i.imgur.com/KS9f4kQ.png" class="img-responsive skill-img">
+                </div>
+            </div>
         </div>
     </section>
 
@@ -225,7 +241,9 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Resume</h2>
+                            <div class="modal-doc">
                             <iframe frameborder="0" width="700" height="500" src="https://docs.google.com/document/d/1397fQ3mSwRmaCWwPNmORXfGydEhxZ2ZUuNQ1-0rRXAQ/pub?embedded=true"></iframe>
+                            </div>
                             <br><br>
                             <a class="boton1 portfolio-link" href="#gradModal1" data-dismiss="modal">Close</a>
                         </div>
@@ -244,7 +262,13 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-
+    
+    
+     <script src="node_modules/aos/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <!--<script src="js/scrollable.js"></script>-->
 </body>
 
 </html>
