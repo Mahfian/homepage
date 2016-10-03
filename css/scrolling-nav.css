@@ -53,6 +53,10 @@ poop {
     }*/
 }
 
+.navbar-collapse {
+    overflow: hidden;
+}
+
 .top-nav-collapse img {
     margin-top: -10px;
     height: 41px;
@@ -290,4 +294,35 @@ of those sections to manage the look and feel of the site. */
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+
+.carousel-inner>.item>img {
+    height: 500px;
+    margin: auto;
+}
+
+@media (min-height:700px){
+    .carousel-inner>.item>img {
+    height: 700px;
+}
+}
+
+.section-four {
+    padding-top: 43px;
+}
+
+.section-four p {
+    color: #fff;
+}
+
+.section-four h1 {
+    margin-bottom: 30px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.glyphicon-chevron-right, .glyphicon-chevron-left {
+    color: #232323;
 }
