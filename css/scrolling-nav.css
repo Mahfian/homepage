@@ -331,7 +331,7 @@ of those sections to manage the look and feel of the site. */
 
 @media (max-width:470px){
     .carousel-caption p {
-        font-size: 11.5px;
+        font-size: 10px;
     }
 }
 
