@@ -120,7 +120,6 @@ of those sections to manage the look and feel of the site. */
     background-size: cover;
 }
 
-
 @media(max-height:470px) {
     
 .intro-section {
@@ -202,14 +201,14 @@ of those sections to manage the look and feel of the site. */
 }
 
 .section-two {
-    padding-top: 50px;
-    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 58px;
     text-align: center;
     background: #fff;
 }
 
 .section-two h1 {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .section-two h3 {
@@ -223,9 +222,14 @@ of those sections to manage the look and feel of the site. */
 }
 
 .section-three {
-    padding-top: 80px;
+    padding-top: 50px;
     padding-bottom: 80px;
 }
+
+.section-three h1 {
+    padding-bottom: 30px;
+}
+
 
 .skills img {
     height:200px;
@@ -302,7 +306,7 @@ of those sections to manage the look and feel of the site. */
   opacity: 0;
   display: none;
 }
-
+/*
 .carousel-inner>.item>img {
     height: 500px;
     margin: auto;
@@ -312,6 +316,23 @@ of those sections to manage the look and feel of the site. */
     .carousel-inner>.item>img {
     height: 700px;
 }
+}*/
+
+.carousel-inner>.item>img {
+    width: 760px;
+    margin: auto;
+}
+
+@media (min-height:700px){
+    .carousel-inner>.item>img {
+        width: 1200px;
+    }
+}
+
+@media (max-width:470px){
+    .carousel-caption p {
+        font-size: 11.5px;
+    }
 }
 
 .section-four {
