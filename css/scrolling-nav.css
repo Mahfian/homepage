@@ -133,22 +133,19 @@ of those sections to manage the look and feel of the site. */
     margin-bottom: 30px;
 }
 }
-/*
+
 @media(max-width:500px) {
     .intro-section {
         height: 100%;
-        padding-top: 150px;
+        padding-top: 150px;/*
         text-align: center;
         background-image: url("http://i.imgur.com/BOFkS8E.jpg");
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: auto 100%;
+        background-size: auto 100%;*/
     }
-
-    
-
-}*/
+}
 
 .intro-section h1 {
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
@@ -350,6 +347,10 @@ of those sections to manage the look and feel of the site. */
 }
 
 @media(max-width:767px) {
+    .carousel-caption {
+        bottom: 5px;
+    }
+    
     .carousel-caption p {
         font-size: 13px;
         text-shadow: 0px 0px 4px #000;
