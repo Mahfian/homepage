@@ -196,6 +196,11 @@ of those sections to manage the look and feel of the site. */
     margin-bottom: 9%;
 }
 
+.section-one img {
+    height: 150px;
+    margin-left: 12px;
+}
+
 .section-two {
     padding-top: 40px;
     padding-bottom: 58px;
