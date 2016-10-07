@@ -33,6 +33,12 @@ poop {
         height: 41px;
         transition: all .5s ease-in-out;
     }
+    
+    .introo p {
+        padding-top: 2.5%;
+        padding-left: 9%;
+        padding-right: 9%;
+    }
 }
 
 
@@ -46,8 +52,13 @@ poop {
 
     .top-nav-collapse {
         padding: 0;
-    }/*
+    }
     
+    .img-dope {
+        margin-left: 20%;
+    }
+    
+    /*
     .top-nav-collapse poop {
         font-size: 18px;
         transition: all .5s ease-in-out;
@@ -96,6 +107,7 @@ a:hover {
     padding: 10px 20px;
     box-shadow:0px 0px 0 #ddd inset;
     text-decoration:none;
+    margin-right: -20px;
 }
 .boton1:hover{ 
     color:#fff;
@@ -193,7 +205,10 @@ of those sections to manage the look and feel of the site. */
 
 .section-one p {
     color: #c4c4c4;
-    margin-bottom: 9%;
+}
+
+.introo p {
+    margin-top: 20px;
 }
 
 .section-two {
