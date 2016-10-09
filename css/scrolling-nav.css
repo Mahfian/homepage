@@ -241,6 +241,22 @@ of those sections to manage the look and feel of the site. */
     padding-bottom: 30px;
 }
 
+.page-two {
+    margin-top: 10px;
+    height: 100%;
+}
+
+.page-two p {
+    margin-bottom: 40px;
+}
+
+.dank:hover {
+    text-decoration: none;
+}
+
+.twoo {
+    background-color: #232323;
+}
 
 .skills img {
     height:200px;
@@ -357,7 +373,12 @@ of those sections to manage the look and feel of the site. */
 }
 
 .glyphicon-chevron-right, .glyphicon-chevron-left {
-    color: #232323;
+    color: #444444;
+}
+
+.carousel-caption p {
+    margin-bottom: 10px;
+    color: #fff;
 }
 
 @media(max-width:767px) {
@@ -392,4 +413,8 @@ of those sections to manage the look and feel of the site. */
 .gradTrans2 h3 {
     margin-top: -20px;
     text-align: center;
+}
+
+.gradTrans2 p {
+    text-align: left;
 }
